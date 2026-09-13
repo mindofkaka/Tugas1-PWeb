@@ -133,31 +133,28 @@ aside {
 
 .github-link {
     display: flex;
-    align-items: center;       /* Menyejajarkan logo dan tulisan secara vertikal */
-    gap: 10px;                 /* Jarak horizontal antara logo dan tulisan */
-    color: #abd2fa;            /* Warna tulisan biru muda */
-    text-decoration: none;     /* Menghilangkan garis bawah pada teks */
+    align-items: center;      
+    gap: 10px;                
+    color: #abd2fa;
+    text-decoration: none;     
     font-size: 16px;
     font-weight: 500;
     transition: color 0.2s ease;
 }
 
 .github-logo {
-    width: 24px;               /* Sedikit lebih kecil agar seimbang dengan ukuran teks */
+    width: 24px;             
     height: 24px;
     display: block;
-    /* Membuat logo mengikuti warna teks biru muda */
     filter: invert(86%) sepia(21%) saturate(545%) hue-rotate(187deg) brightness(103%) contrast(98%);
     transition: filter 0.2s ease;
 }
 
-/* Efek Hover untuk Teks dan Gambar Sekaligus */
 .github-link:hover {
-    color: #7692ff;            /* Teks berubah menjadi biru terang */
+    color: #7692ff;           
 }
 
 .github-link:hover .github-logo {
-    /* Filter berubah menjadi biru terang saat di-hover */
     filter: invert(56%) sepia(87%) saturate(2774%) hue-rotate(213deg) brightness(101%) contrast(101%);
 }
 
